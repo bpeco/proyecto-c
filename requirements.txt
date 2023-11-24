@@ -1,0 +1,11 @@
+streamlit
+pandas
+gspread
+oauth2client
+multipage_streamlit
+git+https://github.com/streamlit/gsheets-connection
+gspread_pandas
+streamlit_toggle
+gspread_dataframe
+matplotlib
+seaborn
