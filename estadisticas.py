@@ -5,12 +5,12 @@ import pandas as pd
 from google.oauth2 import service_account
 from connection import load_the_spreadsheet, gsheet_conn
 import matplotlib.pyplot as plt
-import locale
+#import locale
 import seaborn as sns
 import re
 
 # Establecer el idioma local en español
-locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
+#locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
 
 def limpiar_monto(monto):
     # Utilizar expresiones regulares para extraer solo los dígitos
