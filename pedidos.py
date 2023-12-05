@@ -31,7 +31,7 @@ def display_interface():
     if len(precio) > 0 and producto == 'Media Res' and not st.session_state.clicked:
          with st.spinner(text="Buscando costo..."):
             costo = buscar_costo(int(peso))
-            st.text(f'El costo de {producto} con un peso de {peso}kg a la fecha de hoy es: $ {costo}')
+            st.text(f'El costo a la fecha de hoy es: $ {costo}')
     
     
     return nombre_cliente, flag_carniceria, fecha, producto, peso, precio
